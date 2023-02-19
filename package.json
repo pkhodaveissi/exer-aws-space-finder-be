@@ -1,0 +1,37 @@
+{
+  "name": "exer-aws-space-finder-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkhodaveissi/exer-aws-space-finder-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkhodaveissi/exer-aws-space-finder-be/issues"
+  },
+  "homepage": "https://github.com/pkhodaveissi/exer-aws-space-finder-be#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.110",
+    "@types/node": "^18.13.0",
+    "@types/uuid": "^9.0.0",
+    "aws-cdk": "^2.63.2",
+    "aws-cdk-lib": "^2.63.2",
+    "aws-sdk": "^2.1312.0",
+    "constructs": "^10.1.244",
+    "esbuild": "^0.17.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^5.1.9",
+    "aws-amplify": "^5.0.15",
+    "aws-lambda": "^1.0.7"
+  }
+}

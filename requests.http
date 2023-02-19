@@ -1,0 +1,25 @@
+@endpoint = https://ei5a1vo90c.execute-api.eu-west-1.amazonaws.com/prod
+@token = eyJraWQiOiJlUmxXMmFFSUJ2Y0RWeVlScmtuVlIzTDYxWEFNN2srcHBZK1VCXC9ZcHRPRT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2MzMyYmYxOS04ODkwLTRjODgtODQ3Ni03ZDE4YWUxOTYyMWEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9EZlpCRFN4bFMiLCJjbGllbnRfaWQiOiIxYW1hNTU5bWhjdmw3amRqdWtsaWRranF1aSIsIm9yaWdpbl9qdGkiOiJkMTZlMjA1MC01ZmQ3LTRjNTAtYjMwNy02N2Y0NDBkNWQ2NzMiLCJldmVudF9pZCI6IjRlMmJiNjI4LTMxYTctNGI4Mi05ZGE2LTRlMTVjNTFlYWQzMSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NzY3MjE0MDMsImV4cCI6MTY3NjcyNTAwMywiaWF0IjoxNjc2NzIxNDAzLCJqdGkiOiI2ZTJmMjZkNi03MGQ5LTQ5MzUtOTRhOC0zYjYxYTJkMGU4NWUiLCJ1c2VybmFtZSI6InBpZXJyZXZlaXNzaSJ9.GIGRysGgmmc_CQfGkffuTsTB7wAmm0qTjuyD0dwkltDgpojMsuBBwvFmxYkwTRBJfBVbWK8S1xttD5jhqrydOR6ffJQfaIZyANAEF5T6KySRWROIIkeBwPlbzjQGBMJAwrZIFZjVIbZpHP7kPBpOKSTD4KKQQ8wMK7xgwrvglXnucP3MBmjGuRuT389EYHwR3R-VTMlOhv_2cyM5Jgib5IoGZqSHhJLgcT0969tR1jYuaEPtk76bKs4rfAevVdmO-G2C5MqhYgp4uYUvB8U2J5vq4Uw-di3VXhhJ8kILGC8g9W5CSc0lMaEm1mveUfnrOvILpo3qNrZfLteVLkaatA
+
+Get {{endpoint}}/spaces
+### ?spaceId=203b81af-7855-4d9d-9132-713d38187645
+
+Get {{endpoint}}/spaces?location=London
+###
+
+PUT  {{endpoint}}/spaces?spaceId=203b81af-7855-4d9d-9132-713d38187645
+Content-Type: application/json
+
+{
+    "location": "Utrecht",
+}
+###
+
+POST {{endpoint}}/spaces 
+Content-Type: application/json
+
+{
+    "location": "Amsterdam",
+    "name": "Even Better Location"
+}
+###
